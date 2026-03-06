@@ -1,0 +1,38 @@
+# =========================
+# Frontend
+# =========================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# =========================
+# Backend
+# =========================
+
+# virtual env
+Backend/venv/
+Backend/.venv/
+
+# environment
+Backend/.env
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# logs
+Backend/logs/
+
+# models
+Backend/models/
+*.h5
+*.pkl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
